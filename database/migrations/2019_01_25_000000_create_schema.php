@@ -14,7 +14,7 @@ class CreateSchema extends Migration
      */
     public function up()
     {
-        Schema::create('boilerplate', function (Blueprint $table) {
+        Schema::create('videos', function (Blueprint $table) {
             /* Columns */
             $table->increments('id');
             $table->string('name');
